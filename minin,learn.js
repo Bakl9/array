@@ -38,3 +38,8 @@ const millionPlusCities = cities.filter(person => person.population > 1000000)
   console.log(millionPlusCities);
 
 
+const listName = ['makarov', 'Vladilen', 'Dmitry','Dmitry','Dmitry'];
+const newList = [new Set(listName)]
+console.log(newList)
+
+
