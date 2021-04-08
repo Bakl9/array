@@ -13,3 +13,8 @@ console.log(car)
 // for ( let i = 0; i < arr.length; i++) {
 //     console.log(arr[i])
 // }
+
+
+const arrayList = ['1', '2', '3', '4', '10', '12', '5'];
+const newArray = [arrayList.length - 1];
+console.log(newArray);
