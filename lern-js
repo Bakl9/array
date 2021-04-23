@@ -18,3 +18,9 @@ console.log(car)
 const arrayList = ['1', '2', '3', '4', '10', '12', '5'];
 const newArray = [arrayList.length - 1];
 console.log(newArray);
+
+
+let array = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+const newArray = array.filter(word => word.length > 6);
+console.log(newArray)
