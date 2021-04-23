@@ -9,7 +9,7 @@ console.log(car.indexOf('bentley'))
 car.unshift('lexus') 
 console.log(car)
 
-// let arr = ['Яблоко', 'Что то', 'Нет']
+// let arr = ['Яблоко', 'Что то', 'Нет'] 
 // for ( let i = 0; i < arr.length; i++) {
 //     console.log(arr[i])
 // }
