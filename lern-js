@@ -3,7 +3,7 @@ var car = ['audi', 'bmw', 'bentley']
 
 car.push('mersedes')
 car.pop()
-
+  
 console.log(car)
 console.log(car.indexOf('bentley'))
 car.unshift('lexus')
