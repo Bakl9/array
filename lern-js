@@ -6,7 +6,7 @@ car.pop()
     
 console.log(car)
 console.log(car.indexOf('bentley'))
-car.unshift('lexus')
+car.unshift('lexus') 
 console.log(car)
 
 // let arr = ['Яблоко', 'Что то', 'Нет']
