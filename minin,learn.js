@@ -76,3 +76,22 @@ var newPerson = objArr.find(function(person){
 });
 
 console.log(newPerson)
+
+var numberList = [1,2,3,4,5,6,7,8,9,0].filter(function(i) {
+    return i % 2 === 0
+});
+
+console.log(numberList)
+
+var Array = ['1', '2', '4', '2', '6', '1', '5', '10'];
+
+var newList = Array.map(function(i){
+    return parseInt(i);
+});
+
+newList.filter(function(i){
+    return i % 2 === 0
+});
+
+newList.splice(1,0,'123')
+console.log(newList)
