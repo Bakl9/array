@@ -58,3 +58,21 @@ var array = str.split(',')
 console.log(array.join(';')) 
 console.log(array.reverse()) 
 array.splice(9,0,'11')
+
+
+console.log(array) 
+
+var newArray = array.concat('with','color') // добавляет новые элменты в массив 
+console.log(newArray)
+
+var objArr = [
+    {name: 'Victor', age:25},
+    {name: 'Elena', age:24},
+    {name: 'Max', age:20},
+];
+
+var newPerson = objArr.find(function(person){
+    return person.age === 20
+});
+
+console.log(newPerson)
