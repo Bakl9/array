@@ -43,3 +43,12 @@ const newList = [new Set(listName)]
 console.log(newList)
 
 
+// document.querySelector('#prompt').addEventListener('click', function () {
+//    var age = prompt('Видите свой возраст')
+    
+//    if (age >= 18) {
+//     alert('Вы можете пройти')
+//    } else {
+//        alert('Вы еще слишком молоды')
+//    };
+// });
