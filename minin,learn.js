@@ -52,3 +52,9 @@ console.log(newList)
 //        alert('Вы еще слишком молоды')
 //    };
 // });
+
+var str = '1,2,3,4,5,6,6,7,5,1'
+var array = str.split(',')
+console.log(array.join(';')) 
+console.log(array.reverse()) 
+array.splice(9,0,'11')
