@@ -25,6 +25,17 @@ let array = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 const newArray = array.filter(word => word.length > 6);
 console.log(newArray)
 
+добавляет и удаляет  конце эелементы в массива 
+array.pop()
+array.push({
+    name: 'An9a', age:50, budget:3500
+}); 
 
-// console.log(array.length)
-console.log(array[2])
+
+добавляет в начала массива элементы 
+
+array.shift()
+array.unshift(
+    {name:'Malavita', age:33, budget: 8000}
+);
+
