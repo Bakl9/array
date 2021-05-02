@@ -54,3 +54,9 @@ console.log(arr)
 
 arr.splice(1,1,'Oreh') //добавляет в замен удаленного элемента 
 console.log(arr)
+
+
+var perfectNumber = [1,2,3,4,5,1,2,2,3,3,3];
+var arrNumberList = perfectNumber.slice(2, 6)
+console.log(perfectNumber) //не обнавляет массив 
+console.log(arrNumberList) // отрезок от массива 
