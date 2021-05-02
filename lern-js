@@ -50,3 +50,7 @@ console.log(deleItems); // массив с остатком
 var arr = ['ilysha', 'lybava', 'Mironova', 'Neorgi', 'Klaus', 'Petrov'];
 var nameList2 = arr.splice (0,0,'Heroo', 'Vesna');
 console.log(arr)
+
+
+arr.splice(1,1,'Oreh') //добавляет в замен удаленного элемента 
+console.log(arr)
