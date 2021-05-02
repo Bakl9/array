@@ -24,3 +24,7 @@ let array = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
 
 const newArray = array.filter(word => word.length > 6);
 console.log(newArray)
+
+
+// console.log(array.length)
+console.log(array[2])
