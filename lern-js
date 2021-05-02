@@ -39,3 +39,14 @@ array.unshift(
     {name:'Malavita', age:33, budget: 8000}
 );
 
+var listNumber = [1,2,3,1,2,3,4];
+
+var deleItems = listNumber.splice (0,2);
+
+console.log(listNumber);// первоначальный массив который изменили 
+console.log(deleItems); // массив с остатком
+
+//добавлет элементы по счету 
+var arr = ['ilysha', 'lybava', 'Mironova', 'Neorgi', 'Klaus', 'Petrov'];
+var nameList2 = arr.splice (0,0,'Heroo', 'Vesna');
+console.log(arr)
