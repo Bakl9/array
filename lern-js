@@ -60,3 +60,19 @@ var perfectNumber = [1,2,3,4,5,1,2,2,3,3,3];
 var arrNumberList = perfectNumber.slice(2, 6)
 console.log(perfectNumber) //не обнавляет массив 
 console.log(arrNumberList) // отрезок от массива 
+
+
+
+var style = ['Джаз', 'Блюз'];
+style.push('Рок-н-ролл');
+
+console.log(style)
+
+style.splice(1,1,'классик',)
+var newArray = style.shift(0,1)
+style.unshift('Реп', 'Регги')
+
+console.log(style);
+console.log(newArray);
+console.log(style);
+
