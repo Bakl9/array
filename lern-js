@@ -98,3 +98,8 @@ console.log(style);
 console.log(newArray);
 console.log(style);
 
+
+
+var newArray = [1,2,3,4,5,{ link:'Ilysha'}, 10, 22];
+var place = newArray.some(title => title.link === 'Ilysha')
+console.log(place)
