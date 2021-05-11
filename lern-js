@@ -103,3 +103,6 @@ console.log(style);
 var newArray = [1,2,3,4,5,{ link:'Ilysha'}, 10, 22];
 var place = newArray.some(title => title.link === 'Ilysha')
 console.log(place)
+var loot = [1, 2, 3, 5, 6, 3];
+var second = loot.map(hyi => hyi * 10)
+console.log(second)
