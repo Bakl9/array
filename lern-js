@@ -1,108 +1,35 @@
  
 var car = ['audi', 'bmw', 'bentley']
+indexOf('bentley') // метод оператор индексации элемента в масвиве 
 
-car.push('mersedes')
-car.pop()
-      
-console.log(car)
-console.log(car.indexOf('bentley'))
-car.unshift('lexus') 
-console.log(car)
+car.push('mersedes') // метод добавление в конце массива
+car.pop() // метод удаление в конце массива
 
-// let arr = ['Яблоко', 'Что то', 'Нет'] 
-// for ( let i = 0; i < arr.length; i++) {
-//     console.log(arr[i])
-// }
+array.shift() // для удаления в начале масиви 
+car.unshift('lexus') // для добавления       
 
+listNumber.splice (0,2); // для замены жлементов в массиве в новый массив
+arr.splice (0,0,'Heroo', 'Vesna'); для добавления и удаления в массива
 
-const arrayList = ['1', '2', '3', '4', '10', '12', '5'];
-const newArray = [arrayList.length - 1];
-console.log(newArray);
-
-
-let array = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
-
-const newArray = array.filter(word => word.length > 6);
-console.log(newArray)
-
-добавляет и удаляет  конце эелементы в массива 
-array.pop()
-array.push({
-    name: 'An9a', age:50, budget:3500
-}); 
-
-
-добавляет в начала массива элементы 
-
-array.shift()
-array.unshift(
-    {name:'Malavita', age:33, budget: 8000}
-);
-
-var listNumber = [1,2,3,1,2,3,4];
-
-var deleItems = listNumber.splice (0,2);
-
-console.log(listNumber);// первоначальный массив который изменили 
-console.log(deleItems); // массив с остатком
-
-//добавлет элементы по счету 
-var arr = ['ilysha', 'lybava', 'Mironova', 'Neorgi', 'Klaus', 'Petrov'];
-var nameList2 = arr.splice (0,0,'Heroo', 'Vesna');
-console.log(arr)
-
-
-arr.splice(1,1,'Oreh') //добавляет в замен удаленного элемента 
-console.log(arr)
-
-
-var perfectNumber = [1,2,3,4,5,1,2,2,3,3,3];
-var arrNumberList = perfectNumber.slice(2, 6)
-console.log(perfectNumber) //не обнавляет массив 
-console.log(arrNumberList) // отрезок от массива 
-
-
-function sumInput () {
-    let numbers = [];
-
-    while (true) {
-
-        let value = prompt('Ведите число', 0);
-
-        if (value == '' || value == null || !isFinite(value)) break;
-
-        numbers.push(+value);
-
-        let sum = 0;
-        for (let number of numbers) {
-            sum += number;
-        };
-
-        return sum;
-    };
-};
-
-console.log(sumInput ())
-
-
-var style = ['Джаз', 'Блюз'];
-style.push('Рок-н-ролл');
-
-console.log(style)
-
-style.splice(1,1,'классик',)
-var newArray = style.shift(0,1)
-style.unshift('Реп', 'Регги')
-
-console.log(style);
-console.log(newArray);
-console.log(style);
+array.filter(word); // метод для фиьтрации массива, дополнительно для данного массива используеться цикл или стрелочная функция 
+filter(world)list => list > 6)
+console.log(array.revers() // сортирует масси в обратном порядке 
+array.sort(compare) // метод для сортировки, для данного метода есть дополнительные функции // (return a - b)
+console.log(array.sort((a,b) => a - b)) 
 
 
 
-var newArray = [1,2,3,4,5,{ link:'Ilysha'}, 10, 22];
-var place = newArray.some(title => title.link === 'Ilysha')
-console.log(place)
-var loot = [1, 2, 3, 5, 6, 3];
-var second = loot.map(hyi => hyi * 10)
-console.log(second)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
