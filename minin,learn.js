@@ -5,7 +5,7 @@ const people = [
     { name: 'Игорь', age: 40, budget: 5000},  
     { name: 'Михаил', age: 55, budget: 1800},
     { name: 'Василиса', age: 24, budget: 1500}, 
-    { name: 'Виктория', age: 18, budget: 2300},
+    { name: 'Виктория', age: 18, budget: 2300},   
 ];  
   
 people.forEach(person => console.log(person)); 
