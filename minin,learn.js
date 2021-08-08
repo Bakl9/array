@@ -32,7 +32,7 @@ const cities = [
     {name: 'Novosibirsk', population: 1612833},
     {name: 'Kaliningrad', population: 482443},
     {name: 'Kaluga', population: 336726}
-];
+]; 
 
 const millionPlusCities = cities.filter(person => person.population > 1000000)
   console.log(millionPlusCities);
