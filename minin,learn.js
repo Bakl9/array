@@ -30,7 +30,7 @@ const cities = [
     {name: 'Moscow', population: 12506468},
     {name: 'Saint Petersburg', population: 5351935},
     {name: 'Novosibirsk', population: 1612833},
-    {name: 'Kaliningrad', population: 482443},
+    {name: 'Kaliningrad', population: 482443}, 
     {name: 'Kaluga', population: 336726}
 ]; 
 
