@@ -8,7 +8,7 @@ const people = [
     { name: 'Виктория', age: 18, budget: 2300},           
 ];       
       
-people.forEach(person => console.log(person)); 
+people.forEach(person => console.log(person));   
    
 const indexIgor = people.find(person => person.name === 'Игорь');
 console.log(indexIgor);
