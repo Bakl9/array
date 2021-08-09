@@ -9,7 +9,7 @@ const people = [
 ];       
       
 people.forEach(person => console.log(person));   
-   
+     
 const indexIgor = people.find(person => person.name === 'Игорь');
 console.log(indexIgor);
 
