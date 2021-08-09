@@ -25,7 +25,7 @@ console.log(many);
 const indexVladelen = people.findIndex( person => person.name === 'Владилен');
 console.log(indexVladelen)
 
-
+ 
 const cities = [
     {name: 'Moscow', population: 12506468},
     {name: 'Saint Petersburg', population: 5351935},
